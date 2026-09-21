@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>reflect_tool</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\AuthCenter.Domain\AuthCenter.Domain.csproj" />
+    <ProjectReference Include="..\..\src\AuthCenter.Infrastructure\AuthCenter.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="OpenIddict.Server" Version="7.7.0" />
+    <PackageReference Include="OpenIddict.Core" Version="7.7.0" />
+    <PackageReference Include="OpenIddict.Abstractions" Version="7.7.0" />
+  </ItemGroup>
+
+</Project>

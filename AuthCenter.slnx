@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/AuthCenter.Application/AuthCenter.Application.csproj" />
+    <Project Path="src/AuthCenter.Domain/AuthCenter.Domain.csproj" />
+    <Project Path="src/AuthCenter.Infrastructure/AuthCenter.Infrastructure.csproj" />
+    <Project Path="src/AuthCenter.OpenIddict/AuthCenter.OpenIddict.csproj" />
+    <Project Path="src/AuthCenter.Web/AuthCenter.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/AuthCenter.Tests/AuthCenter.Tests.csproj" />
+  </Folder>
+</Solution>
